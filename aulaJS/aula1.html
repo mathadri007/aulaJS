@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>aula 1 JS</title>
+    <link rel="stylesheet" herf="css/aula1.css">
 </head>
 <body>
     <form>
@@ -16,7 +17,7 @@
         <br>
         <br>
         <label>Senha:</label>
-        <input type="password" name="senha">
+        <input type="password" name="senha" maxlength="4">
         <br>
         <br>
         <label>Idade:</label>
@@ -27,9 +28,31 @@
         <input type="text" name="telefone">
         <br>
         <br>
-        <label>Data de nascimento:</label>
+        <label>Data de Nascimento:</label>
         <input type="date" name="data">
         <br>
+        <br>
+        <label>Esporte Preferido:</label>
+        <input type="checkbox" name="preferencias" value="futebol"><label>Futebol</label>
+        <input type="checkbox" name="preferencias" value="volei"><label>Volei</label>
+        <input type="checkbox" name="preferencias" value="handbol"><label>Handbol</label>
+
+        <label>Estado onde reside</label>
+        <select>
+            <option>SC</option>
+            <option>PR</option>
+            <option>RS</option>
+        </select>
+
+        <br>
+        <br>
+        <labe>Mensagem</label>
+        <br>
+
+        <textarea name="mensagem" id="mensagem" rows ="10"></textarea>
+
+        <inut type="submit" value="ENVIAR">
+        <inut type="reset" value="LIMPAR">
     </form>
 </body>
 </html>
