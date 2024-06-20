@@ -1,4 +1,11 @@
 body{
+    background-color: green;
+}
+
+label{
     text-align: center;
-    backgrounds-color: gray;
+}
+
+header{
+    background-color:gray;
 }
